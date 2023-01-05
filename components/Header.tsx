@@ -24,17 +24,17 @@ export default function Header({ }: Props) {
                 {/*Social Icons*/}
                 <SocialIcon
                     url="https://github.com/JulienLrs"
-                    fgColor='black'
+                    fgColor='#e2e6e9'
                     bgColor='transparent'
                 />
                 <SocialIcon
                     url="https://github.com/JulienLrs"
-                    fgColor='black'
+                    fgColor='#e2e6e9'
                     bgColor='transparent'
                 />
                 <SocialIcon
                     url="https://github.com/JulienLrs"
-                    fgColor='black'
+                    fgColor='#e2e6e9'
                     bgColor='transparent'
                 />
             </motion.div>
@@ -52,13 +52,13 @@ export default function Header({ }: Props) {
             transition={{
                 duration: 1.5
             }}
-            className='flex flex-row items-center text-gray-800 cursor-pointer'>
+            className='flex flex-row items-center cursor-pointer'>
                 <SocialIcon
                     network='email'
-                    fgColor='black'
+                    fgColor='#e2e6e9'
                     bgColor='transparent'
                 />
-                <p className='uppercase hidden md:inline-flex text-sm text-gray-800'>
+                <p className='uppercase hidden md:inline-flex text-sm'>
                     Contactez moi
                 </p>
             </motion.div>
