@@ -26,7 +26,7 @@ export default function Hero({ }: Props) {
                 className="relative rounded-full h-32 w-32 mx-auto object-cover" alt="photo de profil"
             />
             <div className='z-20'>
-                <h2 className='text-sm uppercase text-[rgb(70,80,90)] pb-2 tracking-[10px]'>
+                <h2 className='text-sm uppercase ² pb-2 tracking-[10px]'>
                     Développeur Web
                 </h2>
                 <h1 className='text-4xl lg:text-6xl font-semibold px-10'>
