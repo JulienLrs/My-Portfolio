@@ -1,7 +1,5 @@
 import React from 'react'
-import { motion } from 'framer-motion';
-import Image from 'next/image'
-import AboutPicture from "../public/images/photo-about.jpeg"
+import { motion } from 'framer-motion'; 
 
 type Props = {}
 
@@ -11,22 +9,25 @@ export default function About({ }: Props) {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
-            className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-            <h3 className='absolute top-24 uppercase tracking-[10px] text-2xl text-[rgb(70,80,90)]'>
+            className='flex flex-col relative h-screen text-center md:text-left md:flex-row 
+            max-w-7xl px-10 justify-evenly mx-auto items-center'>
+            <h3 className='absolute top-24 uppercase tracking-[10px] 
+            text-2xl text-[rgb(70,80,90)]'>
                 A propos
             </h3>
             <motion.img
                 initial={{ x: -200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
+                transition={{ duration: 1.5 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 src="https://scontent.fcdg1-1.fna.fbcdn.net/v/t1.18169-9/13912598_651959451622972_6725093248253112853_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=GgXjzbowf0kAX-yHPIX&tn=bVg7MBa1FUaVDQNT&_nc_ht=scontent.fcdg1-1.fna&oh=00_AfAMpyonwxUX7CS7bgIIqWsnwHmUJWhAuN7iW2WHzO7GjA&oe=63DF5AB8"
-                className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
-                alt="photo a propos" />
+                className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover 
+                md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+                />
 
             <div className='space-y-10 px-10 md:px-10'>
                 <h4 className='text-4xl font-semibold'>
-                    Voici un <span className='underline decoration-[#C09B23]'>petit</span> récap:
+                    Voici un petit récap:
                 </h4>
                 <p className='text-base'>Après avoir été responsable d’un bureau opérationnel et manager d’équipe pour des
                     grands loueurs de véhicule, j’ai décidé de réorienter mon parcours professionnel en souhaitant accompagner l’évolution
